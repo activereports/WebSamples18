@@ -1,0 +1,1256 @@
+{
+  "export": {
+    "emptyTextPlaceholder": "<empty>",
+    "boolTextFalse": "False",
+    "boolTextTrue": "True",
+    "nodocument": "No document selected",
+    "inprogress-lbl": "Export in progress",
+    "cancel-btn": "Cancel",
+    "file-format-label": "Format",
+    "start-btn": "Export",
+    "titleToggle": "Expand...",
+    "titleIncrease": "Increase by",
+    "titleDecrease": "Decrease by"
+  },
+  "exportcsv": {
+    "friendlyName": "CSV (*.csv)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "ColumnsDelimiter": {
+        "label": "ColumnsDelimiter",
+        "category": "Misc"
+      },
+      "Encoding": {
+        "label": "Encoding",
+        "category": "Misc",
+        "enum": {
+          "utf-8": "Unicode (UTF-8)",
+          "us-ascii": "US-ASCII",
+          "utf-16": "Unicode"
+        }
+      },
+      "NoHeader": {
+        "label": "NoHeader",
+        "category": "Misc"
+      },
+      "QuotationSymbol": {
+        "label": "QuotationSymbol",
+        "category": "Misc"
+      },
+      "QuotationMode": {
+        "label": "QuotationMode",
+        "category": "Misc",
+        "enum": {
+          "AutoQuote": "AutoQuote",
+          "AlwaysQuote": "AlwaysQuote"
+        }
+      },
+      "RowsDelimiter": {
+        "label": "RowsDelimiter",
+        "category": "Misc"
+      },
+      "DateTimeFormat": {
+        "label": "DateTimeFormat",
+        "category": "Misc"
+      },
+      "NumericFormat": {
+        "label": "NumericFormat",
+        "category": "Misc"
+      }
+    }
+  },
+  "exportdoc": {
+    "friendlyName": "Word 2003 (*.doc)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "Author": {
+        "label": "Author",
+        "category": "Misc"
+      },
+      "Categories": {
+        "label": "Categories",
+        "category": "Misc"
+      },
+      "BaseHref": {
+        "label": "BaseUrl",
+        "category": "Misc"
+      },
+      "Generator": {
+        "label": "Generator",
+        "category": "Misc"
+      },
+      "PageHeight": {
+        "label": "PageHeight",
+        "category": "Misc"
+      },
+      "PageWidth": {
+        "label": "PageWidth",
+        "category": "Misc"
+      },
+      "Title": {
+        "label": "Title",
+        "category": "Misc"
+      }
+    }
+  },
+  "exportdocx": {
+    "friendlyName": "Word (*.docx)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "Author": {
+        "label": "Author",
+        "category": "Misc"
+      },
+      "Categories": {
+        "label": "Categories",
+        "category": "Misc"
+      },
+      "CompanyName": {
+        "label": "CompanyName",
+        "category": "Misc"
+      },
+      "DocumentCompatibilityVersion": {
+        "label": "DocumentCompatibilityVersion",
+        "category": "Misc",
+        "enum": {
+          "Word2007": "Word2007",
+          "Word2010": "Word2010",
+          "Word2013": "Word2013"
+        }
+      },
+      "DpiX": {
+        "label": "DpiX",
+        "category": "Misc"
+      },
+      "DpiY": {
+        "label": "DpiY",
+        "category": "Misc"
+      },
+      "Orientation": {
+        "label": "PageOrientation",
+        "category": "PageSettings",
+        "enum": {
+          "Default": "Default",
+          "Portrait": "Portrait",
+          "Landscape": "Landscape"
+        }
+      },
+      "PaperSize": {
+        "label": "PaperSize",
+        "category": "PageSettings",
+        "enum": {
+          "Default": "Default",
+          "Letter": "Letter",
+          "LetterSmall": "LetterSmall",
+          "Tabloid": "Tabloid",
+          "Ledger": "Ledger",
+          "Legal": "Legal",
+          "Statement": "Statement",
+          "Executive": "Executive",
+          "A3": "A3",
+          "A4": "A4",
+          "A4Small": "A4Small",
+          "A5": "A5",
+          "B4": "B4",
+          "B5": "B5"
+        }
+      },
+      "Password": {
+        "label": "Password",
+        "category": "SecuritySettings"
+      },
+      "ReadOnlyRecommended": {
+        "label": "ReadOnlyRecommended",
+        "category": "SecuritySettings"
+      },
+      "WritePassword": {
+        "label": "WritePassword",
+        "category": "SecuritySettings"
+      },
+      "Title": {
+        "label": "Title",
+        "category": "Misc"
+      },
+      "TOCAutoUpdate": {
+        "label": "TOCAutoUpdate",
+        "category": "Misc"
+      }
+    }
+  },
+  "exportjson": {
+    "friendlyName": "JSON (*.json)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "Formatted": {
+        "label": "Formatted",
+        "category": "Misc"
+      },
+      "QuotePropertyNames": {
+        "label": "QuotePropertyNames",
+        "category": "Misc"
+      }
+    }
+  },
+  "exportmht": {
+    "friendlyName": "Web Archive (*.mht)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "Fragment": {
+        "label": "Fragment",
+        "category": "Output"
+      },
+      "OutputTOC": {
+        "label": "OutputTOC",
+        "category": "Output"
+      },
+      "LinkTarget": {
+        "label": "LinkTarget",
+        "category": "Rendering"
+      },
+      "Mode": {
+        "label": "Mode",
+        "category": "Rendering",
+        "enum": {
+          "Galley": "Galley",
+          "Paginated": "Paginated"
+        }
+      },
+      "BookmarkStyle": {
+        "label": "BookmarkStyle",
+        "category": "Misc",
+        "enum": {
+          "Html": "Html",
+          "None": "None"
+        }
+      },
+      "CharacterSet": {
+        "label": "CharacterSet",
+        "category": "Misc",
+        "enum": {
+          "Big5": "Big5",
+          "EucJp": "EucJp",
+          "HzGb2312": "HzGb2312",
+          "Ibm850": "Ibm850",
+          "Iso2022Jp": "Iso2022Jp",
+          "Iso8859_1": "Iso8859_1",
+          "Iso8859_2": "Iso8859_2",
+          "Iso8859_5": "Iso8859_5",
+          "Iso8859_6": "Iso8859_6",
+          "Koi8r": "Koi8r",
+          "Ksc5601": "Ksc5601",
+          "ShiftJis": "ShiftJis",
+          "UnicodeUtf16": "UnicodeUtf16",
+          "UnicodeUtf8": "UnicodeUtf8"
+        }
+      },
+      "CreateFramesetPage": {
+        "label": "CreateFramesetPage",
+        "category": "Misc"
+      },
+      "IncludeHtmlHeader": {
+        "label": "IncludeHtmlHeader",
+        "category": "Misc"
+      },
+      "IncludePageMargins": {
+        "label": "IncludePageMargins",
+        "category": "Misc"
+      },
+      "MultiPage": {
+        "label": "MultiPage",
+        "category": "Misc"
+      },
+      "OutputType": {
+        "label": "OutputType",
+        "category": "Misc",
+        "enum": {
+          "DynamicHtml": "DynamicHtml",
+          "LegacyHtml": "LegacyHtml"
+        }
+      },
+      "Pagination": {
+        "label": "Pagination",
+        "category": "Misc"
+      },
+      "RemoveVerticalSpace": {
+        "label": "RemoveVerticalSpace",
+        "category": "Misc"
+      },
+      "Title": {
+        "label": "Title",
+        "category": "Misc"
+      }
+    }
+  },
+  "exportpdf": {
+    "application": "ActiveReports 18",
+    "friendlyName": "PDF (*.pdf)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "Title": {
+        "label": "Title",
+        "category": "Misc"
+      },
+      "Author": {
+        "label": "Author",
+        "category": "Misc"
+      },
+      "Subject": {
+        "label": "Subject",
+        "category": "Misc"
+      },
+      "Keywords": {
+        "label": "Keywords",
+        "category": "Misc"
+      },
+      "Application": {
+        "label": "Application",
+        "category": "Misc"
+      },
+      "EmbedFonts": {
+        "label": "EmbedFonts",
+        "category": "Misc",
+        "enum": {
+          "Partial": "Partial",
+          "All": "All",
+          "None": "None"
+        }
+      },
+      "NeverEmbedFonts": {
+        "label": "NeverEmbedFonts",
+        "category": "Misc"
+      },
+      "Version": {
+        "label": "Version",
+        "category": "Misc",
+        "enum": {
+          "Pdf12": "PDF-1.2",
+          "Pdf13": "PDF-1.3",
+          "Pdf14": "PDF-1.4",
+          "Pdf15": "PDF-1.5",
+          "Pdf16": "PDF-1.6",
+          "Pdf17": "PDF-1.7",
+          "Pdf20": "PDF-2.0",
+          "PdfA1a": "PDF/A-1a",
+          "PdfA1b": "PDF/A-1b",
+          "PdfA2a": "PDF/A-2a",
+          "PdfA2b": "PDF/A-2b",
+          "PdfA2u": "PDF/A-2u",
+          "PdfA3a": "PDF/A-3a",
+          "PdfA3b": "PDF/A-3b",
+          "PdfA3u": "PDF/A-3u",
+          "PdfUA1": "PDF/UA-1"
+        }
+      },
+      "UserPassword": {
+        "label": "UserPassword",
+        "category": "SecuritySettings"
+      },
+      "OwnerPassword": {
+        "label": "OwnerPassword",
+        "category": "SecuritySettings"
+      },
+      "Encrypt": {
+        "label": "Encrypt",
+        "category": "SecuritySettings"
+      },
+      "ConvertMetaToPng": {
+        "label": "ConvertMetaToPng",
+        "category": "Misc"
+      },
+      "ExportBookmarks": {
+        "label": "ExportBookmarks",
+        "category": "Misc"
+      },
+      "ImageInterpolation": {
+        "label": "ImageInterpolation",
+        "category": "Misc",
+        "enum": {
+          "Auto": "Auto",
+          "None": "None"
+        }
+      },
+      "ImageQuality": {
+        "label": "ImageQuality",
+        "category": "Misc",
+        "enum": {
+          "Medium": "Medium",
+          "Lowest": "Lowest",
+          "Highest": "Highest"
+        }
+      },
+      "WatermarkTitle": {
+        "label": "Text",
+        "category": "Watermark"
+      },
+      "WatermarkFontName": {
+        "label": "FontName",
+        "category": "Watermark"
+      },
+      "WatermarkFontSize": {
+        "label": "FontSize",
+        "category": "Watermark"
+      },
+      "WatermarkFontStyle": {
+        "label": "FontStyle",
+        "category": "Watermark",
+        "enum": {
+          "Regular": "Regular",
+          "Bold": "Bold",
+          "Italic": "Italic",
+          "Underline": "Underline",
+          "Strikeout": "Strikeout"
+        }
+      },
+      "WatermarkColor": {
+        "label": "Color",
+        "category": "Watermark"
+      },
+      "WatermarkAngle": {
+        "label": "Angle",
+        "category": "Watermark"
+      },
+      "WatermarkPrintOnly": {
+        "label": "PrintOnly",
+        "category": "Watermark"
+      },
+      "Pagination": {
+        "label": "Pagination",
+        "category": "Misc"
+      }
+    }
+  },
+  "exportrtf": {
+    "friendlyName": "Rich Text Format (RTF)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "EnableShapes": {
+        "label": "EnableShapes",
+        "category": "Misc"
+      },
+      "Pagination": {
+        "label": "Pagination",
+        "category": "Misc"
+      }
+    }
+  },
+  "exporttiff": {
+    "friendlyName": "Tagged Image (*.tiff)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "Compression": {
+        "label": "CompressionScheme",
+        "category": "Misc",
+        "enum": {
+          "None": "None",
+          "Rle": "Rle",
+          "Ccitt3": "Ccitt3",
+          "Ccitt4": "Ccitt4",
+          "Lzw": "Lzw"
+        }
+      },
+      "Dither": {
+        "label": "Dither",
+        "category": "Misc"
+      },
+      "DpiX": {
+        "label": "DpiX",
+        "category": "Misc"
+      },
+      "DpiY": {
+        "label": "DpiY",
+        "category": "Misc"
+      },
+      "Pagination": {
+        "label": "Pagination",
+        "category": "Misc"
+      },
+      "CompressionScheme": {
+        "label": "CompressionScheme",
+        "category": "Misc",
+        "enum": {
+          "None": "None",
+          "Rle": "Rle",
+          "Ccitt3": "Ccitt3",
+          "Ccitt4": "Ccitt4",
+          "Lzw": "Lzw"
+        }
+      }
+    }
+  },
+  "exporttxt": {
+    "friendlyName": "Plain Text (TXT)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "Encoding": {
+        "label": "Encoding",
+        "category": "Misc",
+        "enum": {
+          "utf-8": "Unicode (UTF-8)",
+          "us-ascii": "US-ASCII",
+          "utf-16": "Unicode"
+        }
+      },
+      "PageDelimiter": {
+        "label": "PageDelimiter",
+        "category": "Misc"
+      },
+      "QuotationSymbol": {
+        "label": "QuotationSymbol",
+        "category": "Misc"
+      },
+      "QuotationMode": {
+        "label": "QuotationMode",
+        "category": "Misc",
+        "enum": {
+          "AutoQuote": "AutoQuote",
+          "AlwaysQuote": "AlwaysQuote"
+        }
+      },
+      "TextDelimiter": {
+        "label": "TextDelimiter",
+        "category": "Misc"
+      },
+      "SuppressEmptyLines": {
+        "label": "SuppressEmptyLines",
+        "category": "Misc"
+      }
+    }
+  },
+  "exportxls": {
+    "friendlyName": "Excel 2003 (*.xls)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "EnableToggles": {
+        "label": "EnableToggles",
+        "category": "Misc"
+      },
+      "MultiSheet": {
+        "label": "MultiSheet",
+        "category": "Misc"
+      },
+      "LayoutMode": {
+        "label": "LayoutMode",
+        "category": "Misc",
+        "enum": {
+          "Galley": "Galley",
+          "Paginated": "Paginated"
+        }
+      },
+      "RightToLeft": {
+        "label": "RightToLeft",
+        "category": "Misc"
+      },
+      "SheetName": {
+        "label": "SheetName",
+        "category": "Misc"
+      },
+      "UseDefaultPalette": {
+        "label": "UseDefaultPalette",
+        "category": "Misc"
+      },
+      "Orientation": {
+        "label": "PageOrientation",
+        "category": "PageSettings",
+        "enum": {
+          "Default": "Default",
+          "Portrait": "Portrait",
+          "Landscape": "Landscape"
+        }
+      },
+      "PaperSize": {
+        "label": "PaperSize",
+        "category": "PageSettings",
+        "enum": {
+          "Default": "Default",
+          "Letter": "Letter",
+          "LetterSmall": "LetterSmall",
+          "Tabloid": "Tabloid",
+          "Ledger": "Ledger",
+          "Legal": "Legal",
+          "Statement": "Statement",
+          "Executive": "Executive",
+          "A3": "A3",
+          "A4": "A4",
+          "A4Small": "A4Small",
+          "A5": "A5",
+          "B4": "B4",
+          "B5": "B5"
+        }
+      },
+      "Password": {
+        "label": "Password",
+        "category": "Security"
+      },
+      "ProtectedBy": {
+        "label": "ProtectedBy",
+        "category": "Security"
+      },
+      "ReadOnlyRecommended": {
+        "label": "ReadOnlyRecommended",
+        "category": "Security"
+      },
+      "WritePassword": {
+        "label": "WritePassword",
+        "category": "Security"
+      },
+      "AutoRowHeight": {
+        "label": "AutoRowHeight",
+        "category": "Misc"
+      },
+      "DisplayGridLines": {
+        "label": "DisplayGridLines",
+        "category": "Misc"
+      },
+      "Pagination": {
+        "label": "Pagination",
+        "category": "Misc"
+      },
+      "FileFormat": {
+        "label": "FileFormat",
+        "category": "Misc",
+        "enum": {
+          "Xls97Plus": "Xls97Plus",
+          "Xls95": "Xls95"
+        }
+      }
+    }
+  },
+  "exportxlsx": {
+    "friendlyName": "Excel (*.xlsx)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "Author": {
+        "label": "Author",
+        "category": "Misc"
+      },
+      "Title": {
+        "label": "Title",
+        "category": "Misc"
+      },
+      "Categories": {
+        "label": "Categories",
+        "category": "Misc"
+      },
+      "EnableToggles": {
+        "label": "EnableToggles",
+        "category": "Misc"
+      },
+      "MultiSheet": {
+        "label": "MultiSheet",
+        "category": "Misc"
+      },
+      "OutputFormat": {
+        "label": "OpenXmlStandard",
+        "category": "Misc",
+        "enum": {
+          "OpenXmlTransitional": "Transitional",
+          "OpenXmlStrict": "Strict"
+        }
+      },
+      "LayoutMode": {
+        "label": "LayoutMode",
+        "category": "Misc",
+        "enum": {
+          "Galley": "Galley",
+          "Paginated": "Paginated"
+        }
+      },
+      "RightToLeft": {
+        "label": "RightToLeft",
+        "category": "Misc"
+      },
+      "SheetName": {
+        "label": "SheetName",
+        "category": "Misc"
+      },
+      "UseCompression": {
+        "label": "UseCompression",
+        "category": "Misc"
+      },
+      "UseDefaultPalette": {
+        "label": "UseDefaultPalette",
+        "category": "Misc"
+      },
+      "Orientation": {
+        "label": "PageOrientation",
+        "category": "PageSettings",
+        "enum": {
+          "Default": "Default",
+          "Portrait": "Portrait",
+          "Landscape": "Landscape"
+        }
+      },
+      "PaperSize": {
+        "label": "PaperSize",
+        "category": "PageSettings",
+        "enum": {
+          "Default": "Default",
+          "Letter": "Letter",
+          "LetterSmall": "LetterSmall",
+          "Tabloid": "Tabloid",
+          "Ledger": "Ledger",
+          "Legal": "Legal",
+          "Statement": "Statement",
+          "Executive": "Executive",
+          "A3": "A3",
+          "A4": "A4",
+          "A4Small": "A4Small",
+          "A5": "A5",
+          "B4": "B4",
+          "B5": "B5"
+        }
+      },
+      "Password": {
+        "label": "Password",
+        "category": "Security"
+      },
+      "ProtectedBy": {
+        "label": "ProtectedBy",
+        "category": "Security"
+      },
+      "ReadOnlyRecommended": {
+        "label": "ReadOnlyRecommended",
+        "category": "Security"
+      },
+      "WritePassword": {
+        "label": "WritePassword",
+        "category": "Security"
+      },
+      "AutoRowHeight": {
+        "label": "AutoRowHeight",
+        "category": "Misc"
+      },
+      "DisplayGridLines": {
+        "label": "DisplayGridLines",
+        "category": "Misc"
+      },
+      "OpenXmlStandard": {
+        "label": "OpenXmlStandard",
+        "category": "Misc",
+        "enum": {
+          "Transitional": "Transitional",
+          "Strict": "Strict"
+        }
+      },
+      "Pagination": {
+        "label": "Pagination",
+        "category": "Misc"
+      }
+    }
+  },
+  "exportxml": {
+    "friendlyName": "XML (*.xml)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "Encoding": {
+        "label": "Encoding",
+        "category": "Misc",
+        "enum": {
+          "UTF-8": "UTF-8",
+          "ASCII": "ASCII",
+          "Unicode": "Unicode"
+        }
+      }
+    }
+  },
+  "exporttextprint": {
+    "friendlyName": "Text Print (*.txt)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "CharWidth": {
+        "label": "CharWidth",
+        "category": "Misc"
+      },
+      "CharHeight": {
+        "label": "CharHeight",
+        "category": "Misc"
+      },
+      "HorizontalPaddings": {
+        "label": "HorizontalPaddings",
+        "category": "Misc",
+        "enum": {
+          "Adjust": "Adjust",
+          "Remove": "Remove",
+          "Keep": "Keep"
+        }
+      },
+      "LineEnding": {
+        "label": "LineEnding",
+        "category": "Misc"
+      }
+    }
+  },
+  "exportxlsxdata": {
+    "friendlyName": "Excel Data (*.xlsx)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "Author": {
+        "label": "Author",
+        "category": "Misc"
+      },
+      "Title": {
+        "label": "Title",
+        "category": "Misc"
+      },
+      "Categories": {
+        "label": "Categories",
+        "category": "Misc"
+      },
+      "AllowImages": {
+        "label": "AllowImages",
+        "category": "Misc"
+      },
+      "AutoRowsHeight": {
+        "label": "AutoRowsHeight",
+        "category": "Misc"
+      },
+      "RightToLeft": {
+        "label": "RightToLeft",
+        "category": "Misc"
+      },
+      "UseCompression": {
+        "label": "UseCompression",
+        "category": "Misc"
+      },
+      "Password": {
+        "label": "Password",
+        "category": "Security"
+      },
+      "ProtectedBy": {
+        "label": "ProtectedBy",
+        "category": "Security"
+      },
+      "ReadOnlyRecommended": {
+        "label": "ReadOnlyRecommended",
+        "category": "Security"
+      },
+      "WritePassword": {
+        "label": "WritePassword",
+        "category": "Security"
+      },
+      "OpenXmlStandard": {
+        "label": "OpenXmlStandard",
+        "category": "Misc",
+        "enum": {
+          "Transitional": "Transitional",
+          "Strict": "Strict"
+        }
+      }
+    }
+  },
+  "exportcsvdata": {
+    "friendlyName": "Excel Data (*.csv)",
+    "settings": {
+      "FileName": {
+        "label": "FileName",
+        "category": "FileName"
+      },
+      "ColumnsDelimiter": {
+        "label": "ColumnsDelimiter",
+        "category": "Misc"
+      },
+      "Encoding": {
+        "label": "Encoding",
+        "category": "Misc",
+        "enum": {
+          "utf-8": "Unicode (UTF-8)",
+          "us-ascii": "US-ASCII",
+          "utf-16": "Unicode"
+        }
+      },
+      "NoHeader": {
+        "label": "NoHeader",
+        "category": "Misc"
+      },
+      "QuotationSymbol": {
+        "label": "QuotationSymbol",
+        "category": "Misc"
+      },
+      "RowsDelimiter": {
+        "label": "RowsDelimiter",
+        "category": "Misc"
+      }
+    }
+  },
+  "jsviewer": {
+    "errors": {
+      "aggregateMustSpecifyDataSet": "The aggregate '{{aggregate}}' must specify a data set.",
+      "applyparameters-parameter-notfound": "Parameter not found: '{{ParameterName}}'.",
+      "applyparameters-parameter-wrong-type": "Toggle parameter '{{ParameterName}}' format error.",
+      "bad-response-delayed": "Bad response delayed content",
+      "bad-response-doc": "Bad response export content",
+      "bad-response-report": "Bad response export content",
+      "bad-response-toc": "Failed getting table of contents",
+      "blankValueAssignedToNonBlankParameter": "Blank value assigned to non-Blank parameter.",
+      "commandTextIsEmpty": "Command text is empty.",
+      "cyclicParameter": "Cyclic report parameter references.",
+      "dataSetNotFound": "A DataSet {{dataSetName}} referenced in the report could not be found.",
+      "dataSetNotSpecified": "DataSet name needs to be specified in the Fixed Page Layout settings.",
+      "datasourceMissingElement": "Missing a required element in {{datasourceName}} shared data source XML document.",
+      "export-report": "Export report error.",
+      "ie-no-pdf-addon": "To enable printing for IE, please install and enable a PDF reader add-on.",
+      "ignore-disposition": "It is expected that the content will be displayed as embedded in the browser, but this will be ignored.",
+      "infinitePages": "Endless loop detected.",
+      "invalidColumnSpacing": "When Page (width is set in report PageSize) is divided into columns, the width of the column must be greater than zero and the column spacing.",
+      "invalidDataTypeForParameter": "Invalid data type for parameter.",
+      "invalidKeyInConnectionString": "Invalid key in connection string:{{invalidKey}}",
+      "InvalidReportFormat": "Report format is Invalid",
+      "invalidSharedDataSource": "The shared data source no longer exists or its content is invalid.",
+      "jsonDataSourceNotFound": "The json data source has not been found.",
+      "no-doc": "No document loaded.",
+      "no-doc-cur": "No current document!",
+      "no-fmt": "Invalid format key or module for {{format}} is not loaded.",
+      "no-params-refresh": "Refresh failed (not all parameters specified)",
+      "no-params-render": "Cannot render (not all parameters specified)",
+      "no-report": "Report not found: {{reportId}}",
+      "no-toc": "No TOC content.",
+      "noDataSets": "No data sets",
+      "noLicense": "No license",
+      "nullValueAssignedToNonNullableParameter": "Null value assigned to non-Nullable parameter. Parameter: {{paramName}}",
+      "parameterNotValidated": "Not validated.",
+      "parameterValueIsNotValid": "Parameter value is not a valid value.",
+      "params-hidden": "Some hidden parameters are invalid.",
+      "print-report": "Print report error.",
+      "professionalRequired": "Professional license required.",
+      "render-doc": "Failed rendering document",
+      "report-open-details": "Cannot obtain report info",
+      "report-open-lbl": "Failed to open report",
+      "resourceNotFound": "Unable to load resource from:{{uri}}",
+      "scriptCompilationFailed": "Script compilation failed.",
+      "subreportNotFoundError": "Unable to locate subreport: {{subName}}",
+      "subreportNotSpecified": "Subreport name is not specified for a subreport report item {{itemName}}",
+      "set-parameters": "Set parameters error",
+      "trialExpired": "Trial period has been expired.",
+      "unknown-display": "Unknown display type {{displayType}}",
+      "unknown-event": "Unknown event was not processed",
+      "unknown-format": "Unsupported export type: '{{exportType}}'",
+      "unknown-response": "Unknown server response.",
+      "UnsupportedReportType": "Requested report type is unsupported",
+      "wrong-dpi-settings": "'{{Dpi}}' must be greater than 0",
+      "noDataNoLocateDataSource": "No data has been set and LocateDataSource is not specified to obtain the data at runtime",
+      "objectProviderNoData": "No data has been set. Please specify IEnumerable to use",
+      "objectProviderCommandTextInvalid": "The CommandText is set to an invalid member. The Object data source only supports calling methods or properties with no parameters",
+      "objectProviderDoesNotSupportIEnumerable": "In order to use an object with the ObjectDataSource it must support the IEnumerable interface",
+      "dataSetProviderNoData": "No data has been set. Please specify either a DataSet has single table, DataTable or a DataView to use",
+      "dataSetProviderNotSpecifiedMainTable": "DataSet contains multiple tables. Please specify a main table to work from",
+      "invalidGroupingName": "The Grouping name {{groupName}} is invalid or is a duplicate. Each DataSet, DataRegion and Grouping requires a unique name.",
+      "invalidGroupingParent": "The Grouping {{groupName}} improperly sets the parent property. A Grouping Parent is only allowed if there is one, and only one, GroupExpression.",
+      "dataRegionWithNoGrouping": "This list {{region}} control contains a data region, but does not specifiy a grouping. Grouping is required when a list contains a data region.",
+      "reportItemExpressionReferenceShouldNotContainOtherReferences": "Invalid report item reference. Expressions in Body with report item references cannot reference Fields, DataSets or DataSources. The invalid reference is in report item {{componentName}}, which references report item {{referencedReportItem}}.",
+      "reportItemExpressionReferenceMustBeInScope": "Invalid report item reference. Expressions can only reference report items in the same scope or a parent scope. The invalid reference is in report item {{componentName}}, which references report item {{referencedReportItem}}.",
+      "overflowWidthTooSmall": "{{OverflowName}} has incorrect Width. It should be greater or equal to DataRegion.Width.",
+      "overflowHeightTooSmall": "{{OverflowName}} has incorrect Height. It should be greater or equal to DataRegion.Height.",
+      "missingRequiredElement": "Required element missing. The {{owner}} {{missingElement}} is a required element.",
+      "invalidUsingReportItemReference": "Visibility.Hidden expression for the ReportItem {{Name}} refers to the ReportItems! collection. This collection cannot be used in Visibility.Hidden expressions of items in report body.",
+      "invalidUserSortSortExpressionNoScope": "Invalid UserSort SortExpression. In order to use aggregates with the SortExpression there must be a scope specified in the expression or SortExpressionScope.",
+      "invalidToggleItemReference": "Invalid Toggle Item. The ReportItem {{Name}} has its ToggleItem set to a control in the page header or footer. ToggleItems cannot refer to a component in the Page header or footer.",
+      "invalidToggleControlInPageHeaderFooter": "Invalid use of toggle item. The report item {{Name}} has its visiblity toggle item set, but the toggle control is in the page header or page footer. A control in the page header or footer cannot be used as a toggle.",
+      "invalidDataRegionName": "The DataRegion name {{DataRegionName}} is invalid or a duplicate. Each DataSet, DataRegion and Grouping requires a unique name.",
+      "invalidDataRegionDataSetName": "The {{DataRegionName}} report item has an invalid data set name {{DataSetName}}.",
+      "invalidFixedPageDataSetName": "The report section has an invalid data set name {{DataSetName}}.",
+      "invalidCustomDataDataGrouping": "Invalid custom report item data grouping. Static data groupings cannot contain a grouping.",
+      "invalidActionControlInPageHeaderFooter": "Invalid use of an Action item. The report item {{Name}} has an action set, but the control is in the page header or page footer. A control in the page header or footer cannot be used as a bookmark or drillthrough link.",
+      "dataRegionMissingDataSetName": "The Data Region {{DataRegionName}} doesn't specify a DataSetName. The DataSetName value is required if there are multiple DataSets in the report.",
+      "circularReferenceToItself": "Circular Reference Error, Value expression in {{Name}} refers to itself.",
+      "circularReferenceFromAnother": "Circular Reference Error, Value expressions in {{circularChain}} form a circular reference.",
+      "badReportItemName": "Bad or missing control name {{Name}}. Each report item is required to have a valid, unique name.",
+      "dataProviderError": "No data connection",
+      "libraryNotFound": "Library not found: {{library}}.",
+      "libraryReferenceNotFound": "Invalid library reference: {{library}}.",
+      "libraryReportItemNotFound": "Report Item '{{reportItem}}' for the Report Part '{{reportPart}}' was not found.",
+      "libraryReportPartNotFound": "Report Part '{{reportPart}}' not found."
+    },
+    "export": {
+      "export-preparing": "Preparing export..."
+    },
+    "panels": {
+      "export": "Export",
+      "parameters": "Parameters",
+      "reports": "Report list",
+      "toc": "Table of Contents",
+      "dashboard-sections": "DashBoard Sections"
+    },
+    "toolbar": {
+      "galley-mode": "Galley Mode",
+      "item-exist": "The item with the same key (\"{{itemKey}}\") already exists.",
+      "mode-continious": "Continuous View",
+      "mode-single": "Single Page View",
+      "print-btn": "Print",
+      "print-preparing": "Preparing print..."
+    }
+  },
+  "params": {
+    "bool-true-label": "True",
+    "bool-false-label": "False",
+    "paramsTextInvalidValue": "Invalid Value",
+    "datePlaceholder": "Select Date..",
+    "daysViewHeaderFormat": "MMMM YYYY",
+    "ddpTextNull": "(null)",
+    "ddpTextSelectValue": "(select value)",
+    "ddpTextSelectAllValues": "(select all)",
+    "null": "Null",
+    "preview-btn-title": "Preview"
+  },
+  "paramsView": {
+    "boolTextTrue": "True",
+    "boolTextFalse": "False",
+    "boolTextUnspecified": "Unspecified",
+    "btnTextPreview": "Preview",
+    "btnTextReset": "Reset",
+    "btnTextClear": "Clear",
+    "lblTextInvalidValue": "Invalid Value",
+    "listTextSelectAllValues": "(select all)",
+    "dtTextClear": "Clear",
+    "dtTextToday": "Today",
+    "dtTextSelectDate": "Select Date..",
+    "dtDaysViewHeaderFormat": "MMMM YYYY",
+    "dtTextBack": "Back to Calendar",
+    "dtMonthYearOrder": "M-Y",
+    "dtTitleToggle": "Expand Calendar",
+    "ddTitleToggle": "Expand",
+    "ddeTextSelectAllValues": "(select all)",
+    "ddeTextSelectValue": "(select value)",
+    "ddeTextNull": "(null)",
+    "drDaysViewHeaderFormat": "MMMM YYYY",
+    "drTabLabelMonthly": "Monthly",
+    "drTabLabelAnnually": "Annually",
+    "drTextBack": "Back to Calendar",
+    "drTabLabelDaily": "Daily",
+    "drTextShortcutsList": "Common Ranges",
+    "drPlaceholderDateStart": "Start",
+    "drPlaceholderDateEnd": "End",
+    "drTitleToggle": "Expand Calendar",
+    "drShortcutsLabelLastWeek": "Last week",
+    "drShortcutsLabelLastMonth": "Last month",
+    "drShortcutsLabelLastYear": "Last year",
+    "drShortcutsLabelWeekToDate": "Week to date",
+    "drShortcutsLabelMonthToDate": "Month to date",
+    "drShortcutsLabelYearToDate": "Year to date",
+    "nwrpTextNull": "Null",
+    "drShortcutsLabelLastMonthToDate": "Last month to date",
+    "drShortcutsLabelLastWeekToDate": "Last week to date",
+    "drShortcutsLabelLastYearToDate": "Last year to date",
+    "drTabLabelTime": "Time",
+    "dtTextSelectFromDate": "Select \"From\" Date...",
+    "dtTextSelectToDate": "Select \"To\" Date...",
+    "dtTitleQuickRangePicker": "Common Ranges",
+    "dateTimeRange": {
+      "rangeTypes": {
+        "Current_Day": "Current Day",
+        "Current_Hour": "Current Hour",
+        "Current_Minute": "Current Minute",
+        "Current_Month": "Current Month",
+        "Current_Quarter": "Current Quarter",
+        "Current_Week": "Current Week",
+        "Current_Year": "Current Year",
+        "LastSimple_Day": "Last Day",
+        "LastSimple_Hour": "Last Hour",
+        "LastSimple_Minute": "Last Minute",
+        "LastSimple_Month": "Last Month",
+        "LastSimple_Quarter": "Last Quarter",
+        "LastSimple_Second": "Last Second",
+        "LastSimple_Week": "Last Week",
+        "LastSimple_Year": "Last Year",
+        "LastToDateSimple_Day": "Last Day To Date",
+        "LastToDateSimple_Month": "Last Month To Date",
+        "LastToDateSimple_Quarter": "Last Quarter To Date",
+        "LastToDateSimple_Week": "Last Week To Date",
+        "LastToDateSimple_Year": "Last Year To Date",
+        "LastToDate_Day_0": "Last {{count}} Days To Date",
+        "LastToDate_Day_1": "Last {{count}} Days To Date",
+        "LastToDate_Day_2": "Last {{count}} Days To Date",
+        "LastToDate_Month_0": "Last {{count}} Months To Date",
+        "LastToDate_Month_1": "Last {{count}} Months To Date",
+        "LastToDate_Month_2": "Last {{count}} Months To Date",
+        "LastToDate_Quarter_0": "Last {{count}} Quarters To Date",
+        "LastToDate_Quarter_1": "Last {{count}} Quarters To Date",
+        "LastToDate_Quarter_2": "Last {{count}} Quarters To Date",
+        "LastToDate_Week_0": "Last {{count}} Weeks To Date",
+        "LastToDate_Week_1": "Last {{count}} Weeks To Date",
+        "LastToDate_Week_2": "Last {{count}} Weeks To Date",
+        "LastToDate_Year_0": "Last {{count}} Years To Date",
+        "LastToDate_Year_1": "Last {{count}} Years To Date",
+        "LastToDate_Year_2": "Last {{count}} Years To Date",
+        "Last_Day_0": "Last {{count}} Days",
+        "Last_Day_1": "Last {{count}} Days",
+        "Last_Day_2": "Last {{count}} Days",
+        "Last_Hour_0": "Last {{count}} Hours",
+        "Last_Hour_1": "Last {{count}} Hours",
+        "Last_Hour_2": "Last {{count}} Hours",
+        "Last_Minute_0": "Last {{count}} Minutes",
+        "Last_Minute_1": "Last {{count}} Minutes",
+        "Last_Minute_2": "Last {{count}} Minutes",
+        "Last_Month_0": "Last {{count}} Months",
+        "Last_Month_1": "Last {{count}} Months",
+        "Last_Month_2": "Last {{count}} Months",
+        "Last_Quarter_0": "Last {{count}} Quarters",
+        "Last_Quarter_1": "Last {{count}} Quarters",
+        "Last_Quarter_2": "Last {{count}} Quarters",
+        "Last_Second_0": "Last {{count}} Seconds",
+        "Last_Second_1": "Last {{count}} Seconds",
+        "Last_Second_2": "Last {{count}} Seconds",
+        "Last_Week_0": "Last {{count}} Weeks",
+        "Last_Week_1": "Last {{count}} Weeks",
+        "Last_Week_2": "Last {{count}} Weeks",
+        "Last_Year_0": "Last {{count}} Years",
+        "Last_Year_1": "Last {{count}} Years",
+        "Last_Year_2": "Last {{count}} Years",
+        "NextSimple_Day": "Next Day",
+        "NextSimple_Hour": "Next Hour",
+        "NextSimple_Minute": "Next Minute",
+        "NextSimple_Month": "Next Month",
+        "NextSimple_Quarter": "Next Quarter",
+        "NextSimple_Second": "Next Second",
+        "NextSimple_Week": "Next Week",
+        "NextSimple_Year": "Next Year",
+        "Next_Day_0": "Next {{count}} Days",
+        "Next_Day_1": "Next {{count}} Days",
+        "Next_Day_2": "Next {{count}} Days",
+        "Next_Hour_0": "Next {{count}} Hours",
+        "Next_Hour_1": "Next {{count}} Hours",
+        "Next_Hour_2": "Next {{count}} Hours",
+        "Next_Minute_0": "Next {{count}} Minutes",
+        "Next_Minute_1": "Next {{count}} Minutes",
+        "Next_Minute_2": "Next {{count}} Minutes",
+        "Next_Month_0": "Next {{count}} Months",
+        "Next_Month_1": "Next {{count}} Months",
+        "Next_Month_2": "Next {{count}} Months",
+        "Next_Quarter_0": "Next {{count}} Quarters",
+        "Next_Quarter_1": "Next {{count}} Quarters",
+        "Next_Quarter_2": "Next {{count}} Quarters",
+        "Next_Second_0": "Next {{count}} Seconds",
+        "Next_Second_1": "Next {{count}} Seconds",
+        "Next_Second_2": "Next {{count}} Seconds",
+        "Next_Week_0": "Next {{count}} Weeks",
+        "Next_Week_1": "Next {{count}} Weeks",
+        "Next_Week_2": "Next {{count}} Weeks",
+        "Next_Year_0": "Next {{count}} Years",
+        "Next_Year_1": "Next {{count}} Years",
+        "Next_Year_2": "Next {{count}} Years",
+        "ToDate_Day": "Day-To-Date",
+        "ToDate_Month": "Month-To-Date",
+        "ToDate_Quarter": "Quarter-To-Date",
+        "ToDate_Week": "Week-To-Date",
+        "ToDate_Year": "Year-To-Date"
+      }
+    }
+  },
+  "paramsValidation": {
+    "outstandingDependencies": "* Parameter has outstanding dependencies",
+    "invalidBoolean": "* Wrong value. Make sure that you enter a valid boolean",
+    "stringEmpty": "* Wrong value. Empty strings are not allowed",
+    "integerTooBig": "* Value cannot exceed 32-bit integer",
+    "invalidInteger": "* Wrong value. Make sure that you enter a valid integer",
+    "invalidFloat": "* Wrong value. Make sure that you enter a valid float",
+    "invalidDateTime": "* Wrong value. Make sure that you enter a valid date",
+    "unknown": "! Unknown validation error",
+    "requiredValue": "* Value Expected",
+    "valueOutOfRange": "* Wrong value. Pick the right one from the list",
+    "requiredSingleValue": "* Single value expected",
+    "valueIsNull": "* Value cannot be null"
+  },
+  "viewer": {
+    "error": {
+      "details": "Details",
+      "dismiss": "Dismiss",
+      "dismiss-all": "Dismiss All"
+    },
+    "menu": {
+      "toogleText": "Expand menu",
+      "aria-label": "Menu",
+      "pin-button-title": "Pin"
+    },
+    "sidebar": {
+      "expand-btn": "Expand",
+      "collapse-btn": "Collapse",
+      "aria-label": "Sidebar"
+    },
+    "cancel-btn": "Cancel",
+    "toolbar": {
+      "zoom-fitwidth": "Fit to Width",
+      "zoom-fitpage": "Fit Page",
+      "zoom-zoomout": "Zoom Out",
+      "zoom-zoomin": "Zoom In",
+      "zoom-menu-header": "Zoom Mode",
+      "gotofirst": "Go To First",
+      "gotoprevious": "Go To Previous",
+      "gotonext": "Go To Next",
+      "gotolast": "Go To Last",
+      "hist-parent": "History: Back To Parent",
+      "hist-back": "History: Go Back",
+      "hist-fwd": "History: Go Forward",
+      "movetool": "Move Tool",
+      "fullscreen": "Toggle Fullscreen",
+      "refresh": "Refresh",
+      "cancel": "Cancel",
+      "expand": "Expand toolbar",
+      "aria-label": "Toolbar"
+    },
+    "errors": {
+      "noHostElement": "Cannot find the host element."
+    },
+    "top-bottom-panel": {
+      "aria-label": "Additional control panel"
+    },
+    "document-view": {
+      "aria-label": "Document view"
+    },
+    "progress": {
+      "page": "Page"
+    },
+    "search": {
+      "match-case": "Match Case",
+      "whole-word": "Whole word",
+      "cancel-btn": "Cancel",
+      "start-search-btn": "Search",
+      "clear-btn": "Clear",
+      "more-results-btn": "More Results",
+      "search-results": "Search Results",
+      "search-cancelled-msg": "Search cancelled on page {{page}}",
+      "didn-find-msg": "Didn't find anything.",
+      "paneltitle": "Search"
+    }
+  }
+}

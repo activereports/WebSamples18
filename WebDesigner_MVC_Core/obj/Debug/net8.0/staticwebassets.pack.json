@@ -1,0 +1,125 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\custom-resources.json",
+      "PackagePath": "staticwebassets\\custom-resources.json"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\icons\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\icons\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\icons\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\icons\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\icons\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\index.css",
+      "PackagePath": "staticwebassets\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\ja-resources.js",
+      "PackagePath": "staticwebassets\\ja-resources.js"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\jsViewer.chart.min.css",
+      "PackagePath": "staticwebassets\\jsViewer.chart.min.css"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\jsViewer.chart.min.js",
+      "PackagePath": "staticwebassets\\jsViewer.chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\jsViewer.min.css",
+      "PackagePath": "staticwebassets\\jsViewer.min.css"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\jsViewer.min.js",
+      "PackagePath": "staticwebassets\\jsViewer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\ko-resources.js",
+      "PackagePath": "staticwebassets\\ko-resources.js"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\vendor\\css\\fonts-googleapis.css",
+      "PackagePath": "staticwebassets\\vendor\\css\\fonts-googleapis.css"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\vendor\\fonts\\open-sans-v14-300.woff",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\open-sans-v14-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\vendor\\fonts\\open-sans-v14-300.woff2",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\open-sans-v14-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\vendor\\fonts\\open-sans-v14-600.woff",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\open-sans-v14-600.woff"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\vendor\\fonts\\open-sans-v14-600.woff2",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\open-sans-v14-600.woff2"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\vendor\\fonts\\open-sans-v14-700.woff",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\open-sans-v14-700.woff"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\vendor\\fonts\\open-sans-v14-700.woff2",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\open-sans-v14-700.woff2"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\vendor\\fonts\\open-sans-v14-regular.woff",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\open-sans-v14-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\vendor\\fonts\\open-sans-v14-regular.woff2",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\open-sans-v14-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\web-designer.css",
+      "PackagePath": "staticwebassets\\web-designer.css"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\web-designer.js",
+      "PackagePath": "staticwebassets\\web-designer.js"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\web-designer.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\web-designer.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\22ale\\Downloads\\AR_18.0.0_EN (2)\\ArWebSamples.18.0.0.559\\WebDesigner_MVC_Core\\wwwroot\\zh-resources.js",
+      "PackagePath": "staticwebassets\\zh-resources.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebDesigner_MVC_Core.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebDesigner_MVC_Core.props",
+      "PackagePath": "build\\WebDesigner_MVC_Core.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebDesigner_MVC_Core.props",
+      "PackagePath": "buildMultiTargeting\\WebDesigner_MVC_Core.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebDesigner_MVC_Core.props",
+      "PackagePath": "buildTransitive\\WebDesigner_MVC_Core.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

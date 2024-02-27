@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.text.json\6.0.8\buildTransitive\netcoreapp3.1\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\6.0.8\buildTransitive\netcoreapp3.1\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)mescius.activereports\18.0.0\buildTransitive\netstandard2.0\MESCIUS.ActiveReports.targets" Condition="Exists('$(NuGetPackageRoot)mescius.activereports\18.0.0\buildTransitive\netstandard2.0\MESCIUS.ActiveReports.targets')" />
+    <Import Project="$(NuGetPackageRoot)mescius.activereports.web.viewer\18.0.0\buildTransitive\netcoreapp2.1\MESCIUS.ActiveReports.Web.Viewer.targets" Condition="Exists('$(NuGetPackageRoot)mescius.activereports.web.viewer\18.0.0\buildTransitive\netcoreapp2.1\MESCIUS.ActiveReports.Web.Viewer.targets')" />
+    <Import Project="$(NuGetPackageRoot)mescius.activereports.aspnetcore.designer\18.0.0\buildTransitive\netcoreapp2.1\MESCIUS.ActiveReports.Aspnetcore.Designer.targets" Condition="Exists('$(NuGetPackageRoot)mescius.activereports.aspnetcore.designer\18.0.0\buildTransitive\netcoreapp2.1\MESCIUS.ActiveReports.Aspnetcore.Designer.targets')" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,17 @@
+{
+    "name": "activereportsnet-designer-deployer",
+    "version": "0.0.1",
+    "description": "ActiveReports Web Designer Deployer",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@mescius/activereportsnet-viewer": "18.0.0",
+        "@mescius/activereportsnet-designer": "18.0.0",
+        "ncp": "^2.0.0"
+    },
+    "scripts": {
+        "build": "npm run build:viewer && npm run build:designer",
+        "build:viewer": "ncp ./node_modules/@mescius/activereportsnet-viewer/esm ../wwwroot",
+        "build:designer": "ncp ./node_modules/@mescius/activereportsnet-designer/esm ../wwwroot && ncp ./node_modules/@mescius/activereportsnet-designer/dist/vendor ../wwwroot/vendor"
+    }
+}
