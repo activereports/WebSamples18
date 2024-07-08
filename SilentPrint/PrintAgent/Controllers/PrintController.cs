@@ -1,12 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using PrintAgent.Configuration;
 using PrintAgent.Interfaces;
-using System;
-using System.IO;
-using System.Threading.Tasks;
 
 namespace PrintAgent.Controllers
 {

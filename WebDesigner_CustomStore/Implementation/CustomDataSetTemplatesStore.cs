@@ -1,7 +1,4 @@
 using GrapeCity.ActiveReports.PageReportModel;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using GrapeCity.ActiveReports.Web.Designer;
 
 namespace WebDesignerCustomStore.Implementation.CustomStore

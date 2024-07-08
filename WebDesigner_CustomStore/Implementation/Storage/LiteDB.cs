@@ -1,7 +1,3 @@
-using System;
-using System.IO;
-using System.Linq;
-using System.Collections.Generic;
 using LiteDB;
 using WebDesignerCustomStore.Implementation.Storage;
 using GrapeCity.ActiveReports.Rendering.Tools;
@@ -50,7 +46,7 @@ namespace WebDesignerCustomStore.Implementation.Database
 					ContentType = img.ContentType,
 					Thumbnail = new Thumbnail()
 					{
-						Data = Util.GetImageThumbnail(img.Content),
+						Data = Utils.GetImageThumbnail(img.Content),
 						ContentType = img.ContentType
 					}
 				});
@@ -87,6 +83,7 @@ namespace WebDesignerCustomStore.Implementation.Database
 					Name = reportId,
 					ReportType = reportType,
 					Content = report.ToArray(),
+					RdlSubtype = Utils.GetRdlSubType(report)
 				});
 
 			return reportId;

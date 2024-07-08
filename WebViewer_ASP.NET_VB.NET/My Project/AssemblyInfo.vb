@@ -10,7 +10,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("WebViewer")>
 <Assembly: AssemblyCompany("GrapeCity")>
 <Assembly: AssemblyProduct("WebViewer")>
-<Assembly: AssemblyCopyright("© MESCIUS inc. All rights reserved.")>
+<Assembly: AssemblyCopyright("MESCIUS inc.")>
 
 <Assembly: ComVisible(False)>
 

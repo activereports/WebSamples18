@@ -9,45 +9,41 @@ using WebDesigner_Blazor_Custom.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<ReportsDbContext>(ServiceLifetime.Singleton);
-builder.Services.AddSingleton<ReportService>();
-builder.Services.AddSingleton<IReportStore>(s => new ReportStore(s.GetRequiredService<ReportService>()));
-builder.Services.AddSingleton<IResourceRepositoryProvider, ResourceProvider>();
-builder.Services.AddReportViewer();
-builder.Services.AddReportDesigner();
-builder.Services.AddRazorPages().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
+builder.Services.AddReportViewer()
+                .AddReportDesigner()
+                .AddDbContext<ReportsDbContext>(ServiceLifetime.Singleton)
+                .AddSingleton<ReportService>()
+                .AddSingleton<IReportStore>(s => new ReportStore(s.GetRequiredService<ReportService>()))
+                .AddSingleton<IResourceRepositoryProvider, ResourceProvider>()
+                .AddRazorPages()
+                .AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
 builder.Services.AddServerSideBlazor();
 builder.Services.Configure<HubOptions>(options =>
 {
-	options.MaximumReceiveMessageSize = 524288000; //500MB
+    options.MaximumReceiveMessageSize = 524288000; //500MB
 });
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+else
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
 }
 
-var reportStore = app.Services.GetRequiredService<IReportStore>();
-var resourceProvider = app.Services.GetRequiredService<IResourceRepositoryProvider>();
 
 app.UseReportDesigner(config =>
 {
-	config.UseReportsProvider(reportStore);
-	config.UseResourcesProvider(resourceProvider);
+    config.UseReportsProvider(app.Services.GetRequiredService<IReportStore>());
+    config.UseResourcesProvider(app.Services.GetRequiredService<IResourceRepositoryProvider>());
 });
-
-app.UseHttpsRedirection();
-
-app.UseStaticFiles();
-
-app.UseRouting();
-
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
-
+app.UseHttpsRedirection();
+app.UseRouting();
+app.UseStaticFiles();
 app.Run();

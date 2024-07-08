@@ -1,9 +1,4 @@
-using System;
-using System.IO;
 using System.Net;
-using System.Linq;
-using System.Configuration;
-using System.Collections.Generic;
 using Microsoft.Azure.Cosmos;
 using GrapeCity.ActiveReports.Rendering.Tools;
 using GrapeCity.ActiveReports.Web.Designer;
@@ -34,7 +29,7 @@ namespace WebDesignerCustomStore.Implementation.Storage
 
 		public CosmoDB()
 		{
-			var connectionString = ConfigurationManager.ConnectionStrings["CosmosDB"].ConnectionString;
+			var connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["CosmosDB"].ConnectionString;
 			
 			var clientOptions = new CosmosClientOptions()
 			{
@@ -79,7 +74,7 @@ namespace WebDesignerCustomStore.Implementation.Storage
 					Thumbnail = new Thumbnail()
 					{
 						ContentType = image.ContentType,
-						Data = Util.GetImageThumbnail(image.Content)
+						Data = Utils.GetImageThumbnail(image.Content)
 					},
 				});
 
@@ -114,6 +109,7 @@ namespace WebDesignerCustomStore.Implementation.Storage
 				Name = reportId,
 				ReportType = reportType,
 				Content = report.ToArray(),
+				RdlSubtype = Utils.GetRdlSubType(report)
 			};
 
 			_db.GetContainer(REPORTS).CreateItemAsync<Report>(reportInfo, PartitionKey.None).GetAwaiter().GetResult();

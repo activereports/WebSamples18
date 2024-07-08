@@ -1,26 +1,18 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+var builder = WebApplication.CreateBuilder(args);
 
-namespace CORS.Client
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
-	public class Program
-	{
-		public static void Main(string[] args)
-		{
-			CreateHostBuilder(args).Build().Run();
-		}
-
-		public static IHostBuilder CreateHostBuilder(string[] args) =>
-			Host.CreateDefaultBuilder(args)
-				.ConfigureWebHostDefaults(webBuilder =>
-				{
-					webBuilder.UseStartup<Startup>();
-				});
-	}
+    app.UseDeveloperExceptionPage();
 }
+else
+{
+    app.UseExceptionHandler("/Error");
+}
+
+app.UseRouting();
+app.UseFileServer();
+
+app.Run();

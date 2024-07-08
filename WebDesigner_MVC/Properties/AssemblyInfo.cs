@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("WebDesigner_MVC")]
-[assembly: AssemblyCopyright("© MESCIUS inc. All rights reserved.")]
+[assembly: AssemblyCopyright("MESCIUS inc.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

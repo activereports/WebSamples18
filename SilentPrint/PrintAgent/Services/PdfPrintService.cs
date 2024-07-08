@@ -1,10 +1,7 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using GrapeCity.Documents.Pdf;
 using PrintAgent.Interfaces;
-using System;
 using System.Drawing;
 using System.Drawing.Printing;
-using System.IO;
-using GrapeCity.Documents.Pdf;
 
 namespace PrintAgent.Services
 {

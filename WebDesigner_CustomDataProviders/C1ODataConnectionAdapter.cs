@@ -1,7 +1,5 @@
 ﻿using GrapeCity.ActiveReports.Rendering.Data;
-using System;
 using System.Globalization;
-using System.Linq;
 
 namespace WebDesignerCustomDataProviders
 {

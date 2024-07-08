@@ -1,14 +1,40 @@
-﻿using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Hosting;
+﻿using GrapeCity.ActiveReports.Aspnetcore.Designer;
+using GrapeCity.ActiveReports.Aspnetcore.Viewer;
+using GrapeCity.ActiveReports.Web.Designer;
+using WebDesigner_Custom.Data;
+using WebDesigner_Custom.Implementation;
+using WebDesigner_Custom.Services;
 
-namespace WebDesigner_Custom;
+var builder = WebApplication.CreateBuilder(args);
 
-class Program
+// Add services to the container.
+builder.Services.AddReportViewer()
+                .AddReportDesigner()
+                .AddDbContext<ReportsDbContext>(ServiceLifetime.Singleton)
+                .AddSingleton<ReportService>()
+                .AddSingleton<IReportStore>(s => new ReportStore(s.GetRequiredService<ReportService>()))
+                .AddSingleton<IResourceRepositoryProvider, ResourceProvider>()
+                .AddMvc(options => options.EnableEndpointRouting = false)
+                .AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
+
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
-	public static void Main(string[] args) => BuildWebHost(args).Run();
-
-	public static IWebHost BuildWebHost(string[] args) =>
-		WebHost.CreateDefaultBuilder(args)
-			.UseStartup<Startup>()
-			.Build();
+    app.UseDeveloperExceptionPage();
 }
+else
+{
+    app.UseExceptionHandler("/Error");
+}
+
+app.UseReportDesigner(config =>
+{
+    config.UseReportsProvider(app.Services.GetRequiredService<IReportStore>());
+    config.UseResourcesProvider(app.Services.GetRequiredService<IResourceRepositoryProvider>());
+});
+app.UseFileServer();
+app.UseMvc();
+app.Run();

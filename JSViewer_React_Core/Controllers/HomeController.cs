@@ -1,12 +1,13 @@
-﻿using System.IO;
-using System.Linq;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Reflection;
 
 namespace JSViewerReactCore.Controllers
 {
     public class HomeController : Controller
     {
+        private static readonly string CurrentDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? String.Empty;
+        public static readonly DirectoryInfo ReportsDirectory = new DirectoryInfo(Path.Combine(CurrentDir, "Reports"));
+
         private readonly IWebHostEnvironment _env;
         public HomeController(IWebHostEnvironment env) => _env = env;
 
@@ -30,7 +31,7 @@ namespace JSViewerReactCore.Controllers
         /// <returns>Report names</returns>
         private string[] GetFileStoreReports(string[] validExtensions)
         {
-            return Startup.ReportsDirectory
+            return ReportsDirectory
                 .EnumerateFiles("*.*")
                 .Select(x => x.Name)
                 .Where(x => validExtensions.Any(x.EndsWith))

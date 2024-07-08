@@ -1,28 +1,36 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using GrapeCity.ActiveReports.Aspnetcore.Designer;
+using GrapeCity.ActiveReports.Aspnetcore.Viewer;
+using GrapeCity.ActiveReports.Web.Designer;
 
-namespace WebDesigner_Blazor
+DirectoryInfo ResourcesRootDirectory =
+    new DirectoryInfo(Path.Combine(Directory.GetCurrentDirectory(), "resources" + Path.DirectorySeparatorChar));
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddReportViewer()
+                .AddReportDesigner()
+                .AddRazorPages()
+                .AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
+builder.Services.AddServerSideBlazor();
+
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            CreateHostBuilder(args).Build().Run();
-        }
-
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
-    }
+    app.UseDeveloperExceptionPage();
 }
+else
+{
+    app.UseExceptionHandler("/Error");
+}
+
+app.UseReportDesigner(config =>
+    config.UseFileStore(ResourcesRootDirectory, null, FileStoreOptions.NestedFoldersLookup));
+app.UseRouting();
+app.UseStaticFiles();
+app.MapBlazorHub();
+app.MapFallbackToPage("/Index");
+app.Run();

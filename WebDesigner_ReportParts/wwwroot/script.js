@@ -26,6 +26,7 @@ arWebDesigner.create('#ar-web-designer', {
             fpl:['textbox']
         },
         msl: { enabled:false },
+        fpl: { enabled:false },
         dashboard: { enabled:false },
         reportParts: {
             enabled: true,
@@ -34,7 +35,10 @@ arWebDesigner.create('#ar-web-designer', {
                 path: 'libraries/Treadstone.rdlx'
             }
             ],
-        }
+        },
+		masterReports: {
+            enabled: false
+        },
     },
     menu : {
         groupEditor:{visible:false},

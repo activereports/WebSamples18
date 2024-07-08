@@ -1,12 +1,11 @@
-﻿using System.IO;
-using System.Linq;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace JSViewerVueCore.Controllers
 {
     public class HomeController : Controller
     {
+        public static string EmbeddedReportsPrefix = "JSViewer_Vue_Core.Reports";
+
         private readonly IWebHostEnvironment _env;
         public HomeController(IWebHostEnvironment env) => _env = env;
 
@@ -30,9 +29,9 @@ namespace JSViewerVueCore.Controllers
         /// <returns>Report names</returns>
         private static string[] GetEmbeddedReports(string[] validExtensions) =>
             typeof(HomeController).Assembly.GetManifestResourceNames()
-                .Where(x => x.StartsWith(Startup.EmbeddedReportsPrefix))
+                .Where(x => x.StartsWith(EmbeddedReportsPrefix))
                 .Where(x => validExtensions.Any(x.EndsWith))
-                .Select(x => x.Substring(Startup.EmbeddedReportsPrefix.Length + 1))
+                .Select(x => x.Substring(EmbeddedReportsPrefix.Length + 1))
                 .ToArray();
     }
 }

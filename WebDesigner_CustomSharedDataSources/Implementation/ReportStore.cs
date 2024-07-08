@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using System.Xml.Linq;
+using System.Xml.XPath;
 using GrapeCity.ActiveReports.Rendering.Tools;
 using GrapeCity.ActiveReports.Web.Designer;
 using GrapeCity.ActiveReports.Web.Viewer;
@@ -77,14 +75,66 @@ public class ReportStore : IReportStore
 			.EnumerateFiles("*.*")
 			.Where(fileInfo => ReportExtensions.Any(ext =>
 				fileInfo.Extension.EndsWith(ext, StringComparison.InvariantCultureIgnoreCase)))
-			.Select(fileInfo => new ReportInfo()
+			.Select(fileInfo =>
 			{
-				Id = fileInfo.Name,
-				Name = fileInfo.Name,
-				ReportType = GetReportTypeByExtension(fileInfo.Extension),
+				var reportType = GetReportTypeByExtension(fileInfo.Extension);
+				var rdlSubType = reportType != ReportType.RpxXml ? GetRdlSubType(fileInfo) : null;
+				return new ReportInfo()
+				{
+					Id = fileInfo.Name,
+					Name = fileInfo.Name,
+					ReportType = reportType,
+					RdlSubtype = rdlSubType
+				};
 			}).ToArray();
 
 		return reports;
+	}
+	
+	private RdlSubtype? GetRdlSubType(FileInfo report)
+	{
+		XElement rootElement = GetReportContent(report.FullName);
+		
+		if (HasElement(rootElement, "Body/ReportItems/FixedPage"))
+			return RdlSubtype.FixedPage;
+		
+		if (HasElement(rootElement, "ReportSections/ReportSection"))
+		{
+			var customProps = GetElement(rootElement, "CustomProperties")?.Nodes();
+
+			if (customProps?.Count() > 0 && customProps.Where(node => node.ToString().Contains("Dashboard")).Any())
+				return RdlSubtype.Dashboard;
+		}
+
+		return RdlSubtype.MultiSection;
+	}
+
+	private static XElement GetElement(XElement rootElement, string path)
+	{
+		var xPath = string.Join("/", path.Split('/').Select(e => $"*[local-name() = '{e}']"));
+		var targetElement = rootElement.XPathSelectElement(xPath);
+		return targetElement;
+	}
+
+	private static bool HasElement(XElement rootElement, string valuePath)
+	{
+		var targetElement = GetElement(rootElement, valuePath);
+		return targetElement != null;
+	}
+	
+	private static XElement GetReportContent(string reportName)
+	{
+		try
+		{
+			using (var streamReader = File.OpenText(reportName))
+			{
+				return XElement.Load(streamReader);
+			}
+		}
+		catch
+		{
+			throw new InvalidReportContentException($"Report '{reportName}' XML content is invalid");
+		}
 	}
 	
 	private static ReportType GetReportTypeByExtension(string extension)

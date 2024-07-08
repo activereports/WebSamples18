@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using GrapeCity.ActiveReports.Rendering.Tools;
+﻿using GrapeCity.ActiveReports.Rendering.Tools;
 using GrapeCity.ActiveReports.Web.Designer;
 using GrapeCity.ActiveReports.Web.Viewer;
 using WebDesigner_Custom.Data;

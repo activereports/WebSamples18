@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Reflection;
 
 
 namespace JSViewer_React_Hooks.Controllers
@@ -10,6 +7,9 @@ namespace JSViewer_React_Hooks.Controllers
     [Route("[controller]")]
     public class ReportsListController : Controller
     {
+        private static readonly string CurrentDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? String.Empty;
+        public static readonly DirectoryInfo ReportsDirectory = new DirectoryInfo(Path.Combine(CurrentDir, "Reports"));
+
         [HttpGet]
         public IEnumerable<string> Get()
         {
@@ -22,7 +22,7 @@ namespace JSViewer_React_Hooks.Controllers
         /// <returns>Report names</returns>
         private string[] GetFileStoreReports(string[] validExtensions)
         {
-            return Startup.ReportsDirectory
+            return ReportsDirectory
                 .EnumerateFiles("*.*")
                 .Select(x => x.Name)
                 .Where(x => validExtensions.Any(x.EndsWith))

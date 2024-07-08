@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("WebViewer")]
 [assembly: AssemblyCompany("GrapeCity")]
 [assembly: AssemblyProduct("WebViewer")]
-[assembly: AssemblyCopyright("© MESCIUS inc. All rights reserved.")]
+[assembly: AssemblyCopyright("MESCIUS inc.")]
 
 
 [assembly: ComVisible(false)]

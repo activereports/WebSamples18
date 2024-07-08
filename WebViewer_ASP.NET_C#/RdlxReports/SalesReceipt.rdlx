@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Report xmlns="http://cdn.grapecity.com/ActiveReports/reporting/2022/01/reportdefinition">
+﻿<Report xmlns="http://cdn.grapecity.com/ActiveReports/reporting/2023/08/reportdefinition">
 	<Name>SalesReceipt.rdlx</Name>
 	<ReportSections>
 		<ReportSection Name="ReportSection1">
@@ -16,14 +15,14 @@
 								<BreakLocation>End</BreakLocation>
 							</PageBreak>
 						</Group>
-						<Width>5.4375in</Width>
+						<Width>5.491667in</Width>
 						<Height>4.5in</Height>
 						<PageBreakAtEnd>true</PageBreakAtEnd>
 						<ReportItems>
 							<Textbox Name="orderNumber">
 								<Top>1in</Top>
 								<Left>0.09375in</Left>
-								<Width>1.25in</Width>
+								<Width>1.2146in</Width>
 								<Height>0.25in</Height>
 								<Style>
 									<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
@@ -41,8 +40,8 @@
 							</Textbox>
 							<Textbox Name="orderDate">
 								<Top>1in</Top>
-								<Left>4in</Left>
-								<Width>1.25in</Width>
+								<Left>4.066667in</Left>
+								<Width>1.1833in</Width>
 								<Height>0.25in</Height>
 								<Style>
 									<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
@@ -142,7 +141,8 @@
 										<Value>=(Fields!TaxPercent.Value / 100.0) * Sum(Fields!ExtendedPrice.Value)</Value>
 									</Textbox>
 								</ReportItems>
-								<CanGrow>true</CanGrow>
+								<CanGrow>false</CanGrow>
+								<Overflow>Grow</Overflow>
 							</Rectangle>
 							<Textbox Name="totalLabel">
 								<Top>4.125in</Top>
@@ -506,12 +506,12 @@
 							<Rectangle Name="customerInformationRectangle">
 								<Top>2.625in</Top>
 								<Left>0.125in</Left>
-								<Width>5.1875in</Width>
+								<Width>5.366667in</Width>
 								<Height>0.25in</Height>
 								<ZIndex>2</ZIndex>
 								<ReportItems>
 									<Textbox Name="customerNameLabel">
-										<Width>0.6666667in</Width>
+										<Width>0.65in</Width>
 										<Height>0.25in</Height>
 										<Style>
 											<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
@@ -530,8 +530,8 @@
 										<Value>Customer:</Value>
 									</Textbox>
 									<Textbox Name="customerName">
-										<Left>0.6666667in</Left>
-										<Width>1.833333in</Width>
+										<Left>0.6444445in</Left>
+										<Width>1.9889in</Width>
 										<Height>0.25in</Height>
 										<Style>
 											<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
@@ -546,8 +546,8 @@
 										<Value>=Fields!CustomerName.Value</Value>
 									</Textbox>
 									<Textbox Name="accountNumberLabel">
-										<Left>3.25in</Left>
-										<Width>1.25in</Width>
+										<Left>2.633333in</Left>
+										<Width>1.9583in</Width>
 										<Height>0.25in</Height>
 										<Style>
 											<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
@@ -564,8 +564,8 @@
 										<Value>Acct #:</Value>
 									</Textbox>
 									<Textbox Name="accountNumber">
-										<Left>4.5in</Left>
-										<Width>0.6875in</Width>
+										<Left>4.591667in</Left>
+										<Width>0.7167in</Width>
 										<Height>0.25in</Height>
 										<Style>
 											<FontFamily>=Theme.Fonts!MinorFont.Family</FontFamily>
@@ -580,7 +580,8 @@
 										<Value>=Fields!AccountNumber.Value</Value>
 									</Textbox>
 								</ReportItems>
-								<CanGrow>true</CanGrow>
+								<CanGrow>false</CanGrow>
+								<Overflow>Grow</Overflow>
 							</Rectangle>
 							<Image Name="ReelsLogo">
 								<DataElementName>ReelsLogo</DataElementName>
@@ -670,19 +671,22 @@
 										<Value>="Reels " &amp; Fields!StoreName.Value</Value>
 									</Textbox>
 								</ReportItems>
-								<CanGrow>true</CanGrow>
+								<CanGrow>false</CanGrow>
+								<Overflow>Grow</Overflow>
 							</Rectangle>
 						</ReportItems>
 					</List>
 				</ReportItems>
 			</Body>
 			<Page>
+				<PaperOrientation>Portrait</PaperOrientation>
 				<TopMargin>1in</TopMargin>
 				<BottomMargin>1in</BottomMargin>
 				<LeftMargin>1.5in</LeftMargin>
 				<RightMargin>1.5in</RightMargin>
 			</Page>
-			<Width>5.46875in</Width>
+			<Width>5.491667in</Width>
+			<DataElementName>ReportSection1</DataElementName>
 		</ReportSection>
 	</ReportSections>
 	<ConsumeContainerWhitespace>True</ConsumeContainerWhitespace>

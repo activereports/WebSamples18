@@ -5,8 +5,8 @@
     "license": "MIT",
     "dependencies": {},
     "devDependencies": {
-        "@mescius/activereportsnet-viewer": "18.0.0",
-        "@mescius/activereportsnet-designer": "18.0.0",
+        "@mescius/activereportsnet-viewer": "18.1.1",
+        "@mescius/activereportsnet-designer": "18.1.1",
         "ncp": "^2.0.0"
     },
     "scripts": {

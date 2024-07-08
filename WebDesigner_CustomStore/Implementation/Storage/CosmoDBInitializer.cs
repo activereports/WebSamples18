@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Configuration;
 using GrapeCity.ActiveReports.Rdl.Themes;
 using GrapeCity.ActiveReports.Rendering.Tools;
 using GrapeCity.ActiveReports.Web.Designer;
@@ -41,7 +36,7 @@ namespace WebDesignerCustomStore.Implementation.Storage
 				ConnectionMode = ConnectionMode.Gateway,
 			};
 			
-			var connectionString = ConfigurationManager.ConnectionStrings["CosmosDB"].ConnectionString;
+			var connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["CosmosDB"].ConnectionString;
 			var client = new CosmosClient(connectionString, clientOptions);
 
 			if (DataBaseExists(client))
@@ -193,6 +188,7 @@ namespace WebDesignerCustomStore.Implementation.Storage
 				Name = file.Name,
 				ReportType = GetReportTypeByExtension(file.Extension),
 				Content = content.ToArray(),
+				RdlSubtype = Utils.GetRdlSubType(content)
 			};
 			
 			return report;

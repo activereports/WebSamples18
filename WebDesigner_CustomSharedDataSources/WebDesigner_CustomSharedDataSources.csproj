@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <NoWarn>NU1701</NoWarn>
@@ -9,8 +10,8 @@
     <NoWarn>NU1701</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="18.0.0" />
-    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Designer" Version="18.0.0" />
+    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="18.1.1" />
+    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Designer" Version="18.1.1" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
   </ItemGroup>

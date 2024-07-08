@@ -503,9 +503,14 @@
         "label": "EnableToggles",
         "category": "Misc"
       },
-      "MultiSheet": {
-        "label": "MultiSheet",
-        "category": "Misc"
+      "SheetMode": {
+        "label": "SheetMode",
+        "category": "Misc",
+        "enum": {
+            "SingleSheet": "SingleSheet",
+            "SectionPerSheet": "SectionPerSheet",
+            "PagePerSheet": "PagePerSheet"
+        }
       },
       "LayoutMode": {
         "label": "LayoutMode",
@@ -605,9 +610,14 @@
         "label": "EnableToggles",
         "category": "Misc"
       },
-      "MultiSheet": {
-        "label": "MultiSheet",
-        "category": "Misc"
+      "SheetMode": {
+        "label": "SheetMode",
+        "category": "Misc",
+        "enum": {
+            "SingleSheet": "SingleSheet",
+            "SectionPerSheet": "SectionPerSheet",
+            "PagePerSheet": "PagePerSheet"
+        }
       },
       "OutputFormat": {
         "label": "OpenXmlStandard",

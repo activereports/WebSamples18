@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://cdn.grapecity.com/ActiveReports/reporting/2022/01/reportdefinition">
-	<Author>Maxim Vakhrushev</Author>
 	<Name>AcmeStore.rdlx</Name>
 	<ReportSections>
 		<ReportSection Name="ReportSection1">

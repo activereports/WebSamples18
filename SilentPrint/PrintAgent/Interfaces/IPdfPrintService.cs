@@ -1,6 +1,4 @@
-﻿using System.IO;
-
-namespace PrintAgent.Interfaces
+﻿namespace PrintAgent.Interfaces
 {
     public interface IPdfPrintService
     {

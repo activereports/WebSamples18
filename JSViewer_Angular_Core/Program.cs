@@ -1,41 +1,39 @@
-using System.Reflection;
 using GrapeCity.ActiveReports.Aspnetcore.Viewer;
-using System.Text;
+using System.Reflection;
 
-public class Program
+DirectoryInfo ReportsDirectory =
+    new DirectoryInfo(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? String.Empty, "Reports"));
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddReportViewer()
+                .AddControllersWithViews();
+
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
-    private static readonly string CurrentDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? String.Empty;
-    public static readonly DirectoryInfo ReportsDirectory = new DirectoryInfo(Path.Combine(CurrentDir, "Reports"));
+    app.UseDeveloperExceptionPage();
+}
+else
+{
+    app.UseExceptionHandler("/Error");
+}
 
-    public static void Main(string[] args)
-    {
-        Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+app.UseReportViewer(settings =>
+{
+    settings.UseFileStore(ReportsDirectory);
+});
+app.UseRouting();
+app.UseStaticFiles();
 
-        var builder = WebApplication.CreateBuilder(args);
-
-        builder.Services.AddControllersWithViews();
-        builder.Services.AddReportViewer();
-
-        var app = builder.Build();
-
-        if (!app.Environment.IsDevelopment())
-        {
-        }
-
-        app.UseStaticFiles();
-        app.UseRouting();
-
-        app.UseReportViewer(settings =>
-        {
-            settings.UseFileStore(ReportsDirectory);
-        });
-
-        app.MapControllerRoute(
+app.MapControllerRoute(
             name: "default",
             pattern: "{controller}/{action=Index}/{id?}");
 
-        app.MapFallbackToFile("index.html");
+app.MapFallbackToFile("index.html");
 
-        app.Run();
-    }
-}
+app.Run();

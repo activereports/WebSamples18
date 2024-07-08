@@ -1,6 +1,4 @@
-﻿using System.IO;
-using System.Linq;
-using GrapeCity.ActiveReports;
+﻿using GrapeCity.ActiveReports;
 using GrapeCity.ActiveReports.Rendering.Tools;
 using GrapeCity.ActiveReports.Web.Designer;
 
