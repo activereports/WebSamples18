@@ -43,7 +43,7 @@ public class ReportStore : IReportStore
 		var file = new FileInfo(Path.Combine(_rootDirectory.FullName, reportId));
 		
 		if (!file.Exists)
-			throw new ReportNotFoundException();
+			throw new ReportNotFoundException(reportId);
 
 		return file.OpenRead();
 	}

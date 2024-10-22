@@ -48,22 +48,22 @@
       <HintPath>packages\DocumentFormat.OpenXml.Framework.3.0.1\lib\net46\DocumentFormat.OpenXml.Framework.dll</HintPath>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Document">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Document.4.6.0\lib\net462\MESCIUS.ActiveReports.Core.Document.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Document.4.6.1\lib\net462\MESCIUS.ActiveReports.Core.Document.dll</HintPath>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Document.Drawing.Gc">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Document.Drawing.Gc.4.6.0\lib\net462\MESCIUS.ActiveReports.Core.Document.Drawing.Gc.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Document.Drawing.Gc.4.6.1\lib\net462\MESCIUS.ActiveReports.Core.Document.Drawing.Gc.dll</HintPath>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Document.Drawing.Gdi">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Document.Drawing.Gdi.4.6.0\lib\net462\MESCIUS.ActiveReports.Core.Document.Drawing.Gdi.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Document.Drawing.Gdi.4.6.1\lib\net462\MESCIUS.ActiveReports.Core.Document.Drawing.Gdi.dll</HintPath>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Scripting">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Scripting.3.10.1\lib\net462\MESCIUS.ActiveReports.Core.Scripting.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Scripting.3.11.0\lib\net462\MESCIUS.ActiveReports.Core.Scripting.dll</HintPath>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.SpreadBuilder">
       <HintPath>packages\MESCIUS.ActiveReports.SpreadBuilder.2.1.0\lib\net462\MESCIUS.ActiveReports.SpreadBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces">
-      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.SqlServer.Types">
@@ -88,8 +88,8 @@
     <Reference Include="System.Text.Encodings.Web">
       <HintPath>packages\System.Text.Encodings.Web.6.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
     </Reference>
-    <Reference Include="System.Text.Json">
-      <HintPath>packages\System.Text.Json.6.0.8\lib\net461\System.Text.Json.dll</HintPath>
+    <Reference Include="System.Text.Json, Version=6.0.0.9, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Json.6.0.9\lib\net461\System.Text.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks.Extensions">
       <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
@@ -115,128 +115,128 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MESCIUS.ActiveReports.Aspnet.Viewer">
-      <HintPath>packages\MESCIUS.ActiveReports.Aspnet.Viewer.18.1.1\lib\net462\MESCIUS.ActiveReports.Aspnet.Viewer.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Aspnet.Viewer.18.2.0\lib\net462\MESCIUS.ActiveReports.Aspnet.Viewer.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Web.Viewer">
-      <HintPath>packages\MESCIUS.ActiveReports.Web.Viewer.18.1.1\lib\net462\MESCIUS.ActiveReports.Web.Viewer.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Web.Viewer.18.2.0\lib\net462\MESCIUS.ActiveReports.Web.Viewer.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.Data.DataEngine">
-      <HintPath>packages\MESCIUS.Data.DataEngine.4.0.1\lib\net462\MESCIUS.Data.DataEngine.dll</HintPath>
+      <HintPath>packages\MESCIUS.Data.DataEngine.4.0.2\lib\net462\MESCIUS.Data.DataEngine.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.Data.ExpressionInfo">
-      <HintPath>packages\MESCIUS.Data.ExpressionInfo.4.0.1\lib\net462\MESCIUS.Data.ExpressionInfo.dll</HintPath>
+      <HintPath>packages\MESCIUS.Data.ExpressionInfo.4.0.2\lib\net462\MESCIUS.Data.ExpressionInfo.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.Data.VBFunctionLib">
-      <HintPath>packages\MESCIUS.Data.VBFunctionLib.4.0.1\lib\net462\MESCIUS.Data.VBFunctionLib.dll</HintPath>
+      <HintPath>packages\MESCIUS.Data.VBFunctionLib.4.0.2\lib\net462\MESCIUS.Data.VBFunctionLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports">
-      <HintPath>packages\MESCIUS.ActiveReports.18.1.1\lib\net462\MESCIUS.ActiveReports.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.18.2.0\lib\net462\MESCIUS.ActiveReports.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Win">
-      <HintPath>packages\MESCIUS.ActiveReports.18.1.1\lib\net462\MESCIUS.ActiveReports.Win.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.18.2.0\lib\net462\MESCIUS.ActiveReports.Win.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Chart">
-      <HintPath>packages\MESCIUS.ActiveReports.Chart.18.0.3\lib\net462\MESCIUS.ActiveReports.Chart.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Chart.18.0.4\lib\net462\MESCIUS.ActiveReports.Chart.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Export.Excel">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Excel.18.1.1\lib\net462\MESCIUS.ActiveReports.Export.Excel.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Excel.18.2.0\lib\net462\MESCIUS.ActiveReports.Export.Excel.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Export.Html">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Html.18.1.1\lib\net462\MESCIUS.ActiveReports.Export.Html.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Html.18.2.0\lib\net462\MESCIUS.ActiveReports.Export.Html.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Export.Image">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Image.18.1.1\lib\net462\MESCIUS.ActiveReports.Export.Image.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Image.18.2.0\lib\net462\MESCIUS.ActiveReports.Export.Image.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Export.Pdf">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Pdf.18.1.1\lib\net462\MESCIUS.ActiveReports.Export.Pdf.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Pdf.18.2.0\lib\net462\MESCIUS.ActiveReports.Export.Pdf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Export.Word">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Word.18.1.1\lib\net462\MESCIUS.ActiveReports.Export.Word.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Word.18.2.0\lib\net462\MESCIUS.ActiveReports.Export.Word.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Export.Xml">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Xml.18.1.1\lib\net462\MESCIUS.ActiveReports.Export.Xml.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Xml.18.2.0\lib\net462\MESCIUS.ActiveReports.Export.Xml.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.DataProviders">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.DataProviders.3.1.0\lib\net462\MESCIUS.ActiveReports.Core.DataProviders.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.DataProviders.3.1.1\lib\net462\MESCIUS.ActiveReports.Core.DataProviders.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Drawing.Gc">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Drawing.Gc.3.10.1\lib\net462\MESCIUS.ActiveReports.Core.Drawing.Gc.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Drawing.Gc.3.11.0\lib\net462\MESCIUS.ActiveReports.Core.Drawing.Gc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Drawing.Gdi">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Drawing.Gdi.3.10.1\lib\net462\MESCIUS.ActiveReports.Core.Drawing.Gdi.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Drawing.Gdi.3.11.0\lib\net462\MESCIUS.ActiveReports.Core.Drawing.Gdi.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Export.Excel.Page">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Excel.Page.3.10.1\lib\net462\MESCIUS.ActiveReports.Core.Export.Excel.Page.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Excel.Page.3.11.0\lib\net462\MESCIUS.ActiveReports.Core.Export.Excel.Page.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Export.Html.Page">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Html.Page.3.10.1\lib\net462\MESCIUS.ActiveReports.Core.Export.Html.Page.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Html.Page.3.11.0\lib\net462\MESCIUS.ActiveReports.Core.Export.Html.Page.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Export.Image.Page">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Image.Page.3.10.1\lib\net462\MESCIUS.ActiveReports.Core.Export.Image.Page.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Image.Page.3.11.0\lib\net462\MESCIUS.ActiveReports.Core.Export.Image.Page.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Export.Pdf.Page">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Pdf.Page.3.10.1\lib\net462\MESCIUS.ActiveReports.Core.Export.Pdf.Page.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Pdf.Page.3.11.0\lib\net462\MESCIUS.ActiveReports.Core.Export.Pdf.Page.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Export.Pdf.Section">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Pdf.Section.4.6.0\lib\net462\MESCIUS.ActiveReports.Core.Export.Pdf.Section.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Pdf.Section.4.6.1\lib\net462\MESCIUS.ActiveReports.Core.Export.Pdf.Section.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Export.Svg.Page">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Svg.Page.3.10.1\lib\net462\MESCIUS.ActiveReports.Core.Export.Svg.Page.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Svg.Page.3.11.0\lib\net462\MESCIUS.ActiveReports.Core.Export.Svg.Page.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Export.Text.Page">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Text.Page.3.10.1\lib\net462\MESCIUS.ActiveReports.Core.Export.Text.Page.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Text.Page.3.11.0\lib\net462\MESCIUS.ActiveReports.Core.Export.Text.Page.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Export.Tiff.Section">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Tiff.Section.4.6.0\lib\net462\MESCIUS.ActiveReports.Core.Export.Tiff.Section.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Tiff.Section.4.6.1\lib\net462\MESCIUS.ActiveReports.Core.Export.Tiff.Section.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Export.Word.Page">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Word.Page.3.10.1\lib\net462\MESCIUS.ActiveReports.Core.Export.Word.Page.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Word.Page.3.11.0\lib\net462\MESCIUS.ActiveReports.Core.Export.Word.Page.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Rdl">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Rdl.3.10.1\lib\net462\MESCIUS.ActiveReports.Core.Rdl.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Rdl.3.11.0\lib\net462\MESCIUS.ActiveReports.Core.Rdl.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.Rendering">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Rendering.3.10.1\lib\net462\MESCIUS.ActiveReports.Core.Rendering.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Rendering.3.11.0\lib\net462\MESCIUS.ActiveReports.Core.Rendering.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DS.Documents.Imaging.Windows">
-      <HintPath>packages\DS.Documents.Imaging.Windows.7.1.2\lib\net461\DS.Documents.Imaging.Windows.dll</HintPath>
+      <HintPath>packages\DS.Documents.Imaging.Windows.7.2.2\lib\net461\DS.Documents.Imaging.Windows.dll</HintPath>
     </Reference>
     <Reference Include="DS.Documents.DX.Windows">
-      <HintPath>packages\DS.Documents.DX.Windows.7.1.2\lib\net461\DS.Documents.DX.Windows.dll</HintPath>
+      <HintPath>packages\DS.Documents.DX.Windows.7.2.2\lib\net461\DS.Documents.DX.Windows.dll</HintPath>
     </Reference>
     <Reference Include="DS.Documents.Imaging">
-      <HintPath>packages\DS.Documents.Imaging.7.1.2\lib\net461\DS.Documents.Imaging.dll</HintPath>
+      <HintPath>packages\DS.Documents.Imaging.7.2.2\lib\net461\DS.Documents.Imaging.dll</HintPath>
     </Reference>
     <Reference Include="DS.Documents.Pdf">
-      <HintPath>packages\DS.Documents.Pdf.7.1.2\lib\net461\DS.Documents.Pdf.dll</HintPath>
+      <HintPath>packages\DS.Documents.Pdf.7.2.2\lib\net461\DS.Documents.Pdf.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

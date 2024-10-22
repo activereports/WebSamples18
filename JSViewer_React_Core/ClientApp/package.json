@@ -21,7 +21,7 @@
     "webpack": "^5.70.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.0",
-    "@mescius/activereportsnet-viewer": "18.1.1"
+    "@mescius/activereportsnet-viewer": "18.2.0"
   },
   "dependencies": {
     "react": "^18.2.0",

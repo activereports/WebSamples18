@@ -12,9 +12,9 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="C1.AdoNet.OData" Version="1.0.20211.49" />
-    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="18.1.1" />
-    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Designer" Version="18.1.1" />
-    <PackageReference Include="MESCIUS.ActiveReports.Core.Rendering" Version="3.10.1" />
+    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="18.2.0" />
+    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Designer" Version="18.2.0" />
+    <PackageReference Include="MESCIUS.ActiveReports.Core.Rendering" Version="3.11.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />

@@ -9,7 +9,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="18.1.1" />
+    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="18.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.SpaProxy" Version="6.0.22" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
   </ItemGroup>

@@ -15,7 +15,7 @@
     <NoWarn>NU1701</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="18.1.1" />
+    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="18.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="6.0.22" />
     <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.9.9">
       <PrivateAssets>all</PrivateAssets>
