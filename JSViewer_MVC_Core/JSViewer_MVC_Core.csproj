@@ -22,9 +22,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="18.2.0" />
+    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer">
+      <Version>18.2.2</Version>
+    </PackageReference>
     <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
-    <PackageReference Include="System.Text.Json" Version="6.0.9" />
+    <PackageReference Include="System.Text.Json" Version="6.0.10" />
     <PackageReference Include="System.Text.Encodings.Web" Version="6.0.0" />
   </ItemGroup>
   <Target Name="ClientBuild" BeforeTargets="BeforeBuild" Condition="!Exists('wwwroot\jsViewer.min.js') OR !Exists('wwwroot\jsViewer.min.css')">

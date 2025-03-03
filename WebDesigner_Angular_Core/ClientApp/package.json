@@ -26,8 +26,8 @@
     "rxjs": "~7.5.5",
     "tslib": "^2.4.0",
     "zone.js": "~0.11.6",
-    "@mescius/activereportsnet-viewer": "18.2.0",
-    "@mescius/activereportsnet-designer": "18.2.0"
+    "@mescius/activereportsnet-viewer": "18.2.2",
+    "@mescius/activereportsnet-designer": "18.2.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.0.3",

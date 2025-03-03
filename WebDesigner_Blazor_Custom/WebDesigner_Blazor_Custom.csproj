@@ -5,11 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Designer" Version="18.2.0" />
-    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="18.2.0" />
-    <PackageReference Include="MESCIUS.ActiveReports.Blazor.Designer" Version="18.2.0" />
-    <PackageReference Include="MESCIUS.ActiveReports.Blazor.Viewer" Version="18.2.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.1" />
+    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Designer" Version="18.2.2" />
+    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="18.2.2" />
+    <PackageReference Include="MESCIUS.ActiveReports.Blazor.Designer" Version="18.2.2" />
+    <PackageReference Include="MESCIUS.ActiveReports.Blazor.Viewer" Version="18.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.10" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
   </ItemGroup>
   <ItemGroup>
