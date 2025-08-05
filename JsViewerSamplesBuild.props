@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ArVersion>18.2.2</ArVersion>
+    <ArCoreVersion>3.12.1</ArCoreVersion>
+    <DocCoreVersion>4.7.0</DocCoreVersion>
+    <ArChartVersion>18.0.4</ArChartVersion>
+    <DataEngineVersion>4.0.3</DataEngineVersion>
+    <GcDocVersion>7.2.2</GcDocVersion>
+    <DataProvidersVersion>3.1.2</DataProvidersVersion>
+    <SpreadBuilderVersion>2.2.0</SpreadBuilderVersion>
+    <QueryDesignerVersion>1.0.2</QueryDesignerVersion>
+    <DataProvidersExcelVersion>1.1.2</DataProvidersExcelVersion>
+    <GcExcelVersion>7.2.2</GcExcelVersion>
+    <JsViewerVersion>18.2.2</JsViewerVersion>
+  </PropertyGroup>
+</Project>
